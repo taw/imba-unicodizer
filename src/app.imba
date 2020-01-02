@@ -24,19 +24,13 @@ tag App
         "Fancy:"
 
       for map in TextTransforms
-        <div.output>
-          <b>
-            map:name
-          <TransformedText map=map text=@text>
+        <TransformedText map=map text=@text>
 
       if @debug
         <p>
           "Debug:"
 
         for map in TextTransforms
-          <div.output>
-            <b>
-              map:name
-            <TransformDebugger map=map>
+          <TransformDebugger map=map>
 
 Imba.mount <App>

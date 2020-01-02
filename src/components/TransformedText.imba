@@ -3,8 +3,15 @@ tag TransformedText
   prop text
 
   def render
+    let transformed = @map.apply(@text)
+
     <self>
-      <div>
-        @map.apply(@text)
+      if @text === transformed
+        <div>
+      else
+        <b>
+          map:name
+        <div>
+          transformed
 
 export default TransformedText

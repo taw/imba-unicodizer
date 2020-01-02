@@ -4,6 +4,8 @@ tag TransformDebugger
   def render
     let text = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     <self>
+      <b>
+        map:name
       <div>
         @map.apply(text)
 

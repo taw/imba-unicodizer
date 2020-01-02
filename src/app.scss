@@ -14,12 +14,12 @@
     width: 100%;
   }
 
-  .output {
+  .TransformedText, .TransformDebugger {
     b {
 
     }
     & > div {
-      margin-left: 2em;
+      margin-left: 1em;
     }
   }
 }
