@@ -30,4 +30,12 @@ class TextTransform
         result.push(c)
     ucs2:encode(result)
 
+  get debug
+    let keys = Object.keys(@cmap)
+    keys.sort do |a, b|
+      a - b
+    let values = keys.map do |i|
+      @cmap[i]
+    ucs2:encode(values)
+
 export default TextTransform
