@@ -1,7 +1,7 @@
 let punycode = require("punycode")
 let ucs2 = punycode:ucs2
 
-class CharacterMap
+class TextTransform
   def initialize(name, map_data)
     @name = name
     @cmap = compile_map(map_data)
@@ -30,4 +30,4 @@ class CharacterMap
         result.push(c)
     ucs2:encode(result)
 
-export default CharacterMap
+export default TextTransform

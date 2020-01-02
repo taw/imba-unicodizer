@@ -1,4 +1,4 @@
-tag Unicodizer
+tag TransformedText
   prop map
   prop text
 
@@ -7,4 +7,4 @@ tag Unicodizer
       <div>
         @map.apply(@text)
 
-export default Unicodizer
+export default TransformedText

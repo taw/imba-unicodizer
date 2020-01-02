@@ -1,4 +1,4 @@
-tag MapDebug
+tag TransformDebugger
   prop map
 
   def render
@@ -7,4 +7,4 @@ tag MapDebug
       <div>
         @map.apply(text)
 
-export default MapDebug
+export default TransformDebugger
