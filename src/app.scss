@@ -10,7 +10,16 @@
   max-width: 80em;
   margin: auto;
 
-  input {
+  input[type="text"] {
     width: 100%;
+  }
+
+  .output {
+    b {
+
+    }
+    & > div {
+      margin-left: 2em;
+    }
   }
 }
