@@ -22,14 +22,12 @@ tag App
 
       <p>
         "Fancy:"
-
       for map in TextTransforms
         <TransformedText map=map text=@text>
 
       if @debug
         <p>
           "Debug:"
-
         for map in TextTransforms
           <TransformDebugger map=map>
 
