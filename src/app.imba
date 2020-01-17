@@ -6,7 +6,7 @@ import TextTransforms from "./TextTransforms"
 tag App
   def setup
     @text = "Happy New Year 2020!"
-    @debug = true
+    @debug = false
 
   def render
     <self>
@@ -20,15 +20,15 @@ tag App
           "Debug mode"
           <input[@debug] type="checkbox">
 
-      <p>
-        "Fancy:"
-      for map in TextTransforms
-        <TransformedText map=map text=@text>
-
       if @debug
-        <p>
-          "Debug:"
+        <h2>
+          "Debug"
         for map in TextTransforms
           <TransformDebugger map=map>
+
+      <h2>
+        "Fancy"
+      for map in TextTransforms
+        <TransformedText map=map text=@text>
 
 Imba.mount <App>
