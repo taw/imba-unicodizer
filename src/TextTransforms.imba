@@ -1,4 +1,5 @@
 import TextTransform from "./TextTransform"
+import BackwardsTextTransform from "./BackwardsTextTransform"
 
 # Inspired by http://qaz.wtf/u/convert.cgi
 
@@ -393,7 +394,64 @@ let TextTransforms = [
       ["Y", "y"],
       ["z", "z"],
     ]
-  )
+  ),
+  BackwardsTextTransform.new(
+    "Reversed (backwards)",
+    [
+      ["A", "A"],
+      ["d", "B"],
+      ["Ↄ", "C"],
+      ["b", "D"],
+      ["Ǝ", "E"],
+      ["ꟻ", "F"],
+      ["G", "G"],
+      ["H", "H"],
+      ["I", "I"],
+      ["J", "J"],
+      ["K", "K"],
+      ["⅃", "L"],
+      ["M", "M"],
+      ["ᴎ", "N"],
+      ["O", "O"],
+      ["ꟼ", "P"],
+      ["p", "Q"],
+      ["ᴙ", "R"],
+      ["Ꙅ", "S"],
+      ["T", "T"],
+      ["U", "U"],
+      ["V", "V"],
+      ["W", "W"],
+      ["X", "X"],
+      ["Y", "Y"],
+      ["Z", "Z"],
+      ["A", "a"],
+      ["d", "b"],
+      ["ↄ", "c"],
+      ["b", "d"],
+      ["ɘ", "e"],
+      ["ꟻ", "f"],
+      ["g", "g"],
+      ["H", "h"],
+      ["i", "i"],
+      ["j", "j"],
+      ["k", "k"],
+      ["l", "l"],
+      ["m", "m"],
+      ["ᴎ", "n"],
+      ["o", "o"],
+      ["q", "p"],
+      ["p", "q"],
+      ["ᴙ", "r"],
+      ["ꙅ", "s"],
+      ["T", "t"],
+      ["U", "u"],
+      ["v", "v"],
+      ["w", "w"],
+      ["x", "x"],
+      ["Y", "y"],
+      ["z", "z"],
+    ]
+  ),
 ]
 
 export default TextTransforms
