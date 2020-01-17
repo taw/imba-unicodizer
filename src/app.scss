@@ -16,6 +16,10 @@
     width: 100%;
   }
 
+  input[type="checkbox"] {
+    margin-left: 1em;
+  }
+
   .TransformedText, .TransformDebugger {
     b {
     }
