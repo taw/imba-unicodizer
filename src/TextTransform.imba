@@ -12,9 +12,9 @@ class TextTransform
   def compile_map(map_data)
     let result = {}
     for group in map_data
-      let source_start = ucs2:decode(group[0])[0]
-      let source_end = ucs2:decode(group[1])[0]
-      let target_start = ucs2:decode(group[2])[0]
+      let target_start = ucs2:decode(group[0])[0]
+      let source_start = ucs2:decode(group[1])[0]
+      let source_end = ucs2:decode(group[2] || group[1])[0]
       for i in [ source_start .. source_end ]
         let j = target_start - source_start + i
         result[i] = j
