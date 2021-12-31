@@ -5,7 +5,7 @@ import TextTransforms from "./TextTransforms"
 
 tag App
   def setup
-    @text = "Happy New Year 2020!"
+    @text = "Happy New Year 2021!"
     @debug = false
 
   def render
