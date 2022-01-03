@@ -1,5 +1,6 @@
 # imba-unicodizer
-
+-----
+built with [imba](imba.io)
 Text goes in. Fancy Unicode goes out. Enjoy.
 
 ## Install dependencies
