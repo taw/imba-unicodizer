@@ -31,7 +31,7 @@
     "normalize-scss": "^7.0.1",
     "punycode": "^2.1.1",
     "style-loader": "^0.23.1",
-    "webpack-dev-server": "^3.7.1"
+    "webpack-dev-server": "^3.11.3"
   },
   "devDependencies": {
     "node-sass": "^7.0.0",
